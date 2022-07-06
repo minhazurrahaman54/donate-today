@@ -39,4 +39,51 @@ body {
     color: white;
     padding: 20px;
     border-radius: 10px;
+    margin: 15px;
+}
+
+.salmon-color {
+    color: salmon;
+}
+
+.donate {
+    text-align: center;
+    padding-top: 100px;
+}
+
+#donate-h {
+    font-size: 40px;
+    font-weight: 800px;
+    padding-bottom: 30px;
+}
+
+#donate-p {
+    font-size: 22px;
+    padding-bottom: 30px;
+}
+
+.Taka {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.taka-h {
+    background-color: rgb(226, 222, 222);
+    width: 150px;
+    height: 100px;
+    padding-top: 50px;
+}
+
+#taka-diff-h {
+    background-color: pink;
+    width: 150px;
+    height: 100px;
+    padding-top: 50px;
+    border: solid rgb(223, 86, 109) 2px;
+    margin-bottom: 75px;
+}
+
+#donate-diff-h {
+    font-size: 25px;
+    padding-bottom: 15px;
 }
