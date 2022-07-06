@@ -1,3 +1,42 @@
+* {
+    margin: 0;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+.top-banner {
+    background-image: url(donation7-modified.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-banner-element {
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+
+#top-banner-h {
+    font-size: 60px;
+    font-weight: 900px;
+    padding-bottom: 30px;
+}
+
+#top-banner-p {
+    font-size: 22px;
+    font-weight: 900px;
+    padding-bottom: 30px;
+}
+
+.link-button {
+    background-color: salmon;
+    font-size: 20px;
+    font-weight: 500px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
 }
