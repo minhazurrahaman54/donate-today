@@ -32,7 +32,7 @@ body {
     padding-bottom: 30px;
 }
 
-.link-button {
+.donate-button {
     background-color: salmon;
     font-size: 20px;
     font-weight: 500px;
@@ -65,6 +65,8 @@ body {
 .Taka {
     display: flex;
     justify-content: space-evenly;
+    margin: 25px;
+    color: gray;
 }
 
 .taka-h {
@@ -72,6 +74,9 @@ body {
     width: 150px;
     height: 100px;
     padding-top: 50px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #taka-diff-h {
@@ -79,11 +84,15 @@ body {
     width: 150px;
     height: 100px;
     padding-top: 50px;
+    border-radius: 5px;
     border: solid rgb(223, 86, 109) 2px;
-    margin-bottom: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-#donate-diff-h {
-    font-size: 25px;
+#amount-h {
+    font-size: 20px;
+    font-weight: 100;
+    color: rgba(128, 128, 128, 0.726);
     padding-bottom: 15px;
 }
