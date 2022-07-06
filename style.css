@@ -58,13 +58,15 @@ body {
 }
 
 #donate-p {
-    font-size: 22px;
+    font-size: 25px;
+    font-weight: 800;
+    color: gray;
 }
 
 .Taka {
     display: flex;
     justify-content: space-evenly;
-    margin: 25px;
+    margin: 40px;
     color: gray;
 }
 
@@ -90,8 +92,78 @@ body {
 }
 
 #amount-h {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 100;
     color: rgba(128, 128, 128, 0.726);
     padding-bottom: 15px;
+}
+
+.donate-plan {
+    text-align: center;
+    padding-top: 100px;
+}
+
+#plan-h {
+    font-size: 40px;
+    font-weight: 800px;
+    padding-bottom: 30px;
+}
+
+#plan-p {
+    font-size: 25px;
+    font-weight: 800;
+    color: gray;
+}
+
+.Ctagories {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+
+}
+
+img {
+    padding-bottom: 20px;
+}
+
+#image {
+    height: 50px;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 900px;
+}
+
+.Food {
+    background-color: pink;
+    background-size: cover;
+    text-align: left;
+    padding-top: 75px;
+    padding-right: 25px;
+    padding-bottom: 75px;
+    padding-left: 25px;
+    width: 20%;
+}
+
+.shelter {
+    background-color: salmon;
+    background-size: cover;
+    text-align: left;
+    padding-top: 75px;
+    padding-right: 25px;
+    padding-bottom: 75px;
+    padding-left: 25px;
+    width: 20%;
+}
+
+.Medicine {
+    background-color: antiquewhite;
+    background-size: cover;
+    text-align: left;
+    padding-top: 75px;
+    padding-right: 25px;
+    padding-bottom: 75px;
+    padding-left: 25px;
+    width: 20%;
 }
